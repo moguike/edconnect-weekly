@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<h1>Project Explorer</h1>
+<h2>One Stop Database for Final Year Projects</h2>
+</head>
+
+<Body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html">Projects</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+    
+    <section id="signup">
+    <form>
+      <h2>Sign Up</h2>
+      <label for="first_name">First Name:</label>
+      <input id="first_name" name="first_name" type="text"></input><br><br>
+      <label for="last_name">Last Name:</label>
+      <input id="last_name" name="last_name" type="text"></input><br><br>
+      <label for="email">Email Address:</label>
+      <input id="email" name="email"></input><br><br>
+      <label for="password">Password:</label>
+      <input id="password" name="password" type="password"></input><br><br>
+      <label for="mat_no">Matric Number:</label>
+      <input id="mat_no" name="mat_no" type="mat_no"></input><br><br>
+      <label for="program">Program:</label>
+      <input list="programs" id="program"></input><br><br>
+      <datalist id="programs">
+          <option value="Computer Science"></option>
+          <option value="Biological Science"></option>
+          <option value="Health Science"></option>
+          <option value="Engineering"></option>
+          <option value="Other"></option>
+      </datalist>
+      <label for="grad_yr">Year of Graduation:</label>
+      <select>
+          <option value=""></option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+      </select>
+      <br><br>
+      <input type="Submit" value="Submit"></input>
+    </form>
+    </section>
+</Body>
+</html>
