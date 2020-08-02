@@ -1,0 +1,30 @@
+
+html {
+     margin:20px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 20px 0px 0px 0px;
+    background-color :rgb(100, 149, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#spacer {
+    background-color :rgb(58, 40, 192);
+    margin: 0px 0px 20px 0px;
+    padding: 5px
+}
+
+h2 { background-color: rgb(171, 193, 233);
+    padding: 0px 10px 0px;
+}
+
+a {
+    padding: 0px 10px 0px;
+}
+.video {
+    margin: 10px 100px 10px;
+}
+
+table, td, th { border-collapse:collapse;}
