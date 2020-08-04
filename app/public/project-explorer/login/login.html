@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> <!--MNOQ: What does this do?-->
+
+    <title>Project Explorer MNO</title>
+
+    <!-- Bootstrap core CSS--> <!--MNOQ: Does this have to be the same for all Boostraps? How do you choose?-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Custom style for this template--> <!-- This css is not needed for this page?-->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+  </head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="../index.html">Project Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> <!--What does this Button do?-->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../home/home.html">Projects <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Register/register.html">Register</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+
+        </div>
+      </nav>
+</body>
+
+      <body class="text-center">
+
+        <form class="form-signin">
+
+          <!--MNOQ: I want a logo on mine, like in the example. How can I get it with bootstrap and path fill
+             <img class="mb-4" src="images/bootstrap-solid.svg" alt="" width="72" height="72">-->
+
+          <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted"> Project Explorer &copy; 2020</p>
+        </form>
+
+      </body> 
+    
+
+</html>
